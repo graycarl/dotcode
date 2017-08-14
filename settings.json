@@ -1,19 +1,14 @@
 {
-    "workbench.colorTheme": "Solarized Dark",
     "editor.fontFamily": "'M+ 1m'",
     "editor.fontSize": 13,
     "files.exclude": {
-        "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
-        "**/.DS_Store": true,
         "**/*.pyc": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        "**/.eggs": true
     },
     "editor.minimap.enabled": false,
     "editor.dragAndDrop": false,
-    "workbench.editor.showTabs": true,
+    "workbench.editor.showTabs": false,
     "files.insertFinalNewline": true,
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
@@ -27,5 +22,6 @@
         "**/venv": true,
         "**/.venv": true
     },
-    "gitlens.codeLens.enabled": false
+    "gitlens.codeLens.enabled": false,
+    "workbench.colorTheme": "Solarized Dark"
 }
