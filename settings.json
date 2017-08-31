@@ -23,5 +23,6 @@
         "**/.venv": true
     },
     "gitlens.codeLens.enabled": false,
-    "workbench.colorTheme": "Solarized Dark"
+    "extensions.ignoreRecommendations": false,
+    "workbench.colorTheme": "One Dark Pro"
 }
