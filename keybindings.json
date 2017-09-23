@@ -1,0 +1,15 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+f7",
+        "command": "python.runCurrentTestFile"
+    },
+    {
+        "key": "f7",
+        "command": "python.runtests"
+    },
+    {
+        "key": "f8",
+        "command": "workbench.action.tasks.test"
+    }
+]

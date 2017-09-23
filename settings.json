@@ -4,7 +4,9 @@
     "files.exclude": {
         "**/*.pyc": true,
         "**/__pycache__": true,
-        "**/.eggs": true
+        "**/.eggs": true,
+        "**/*.egg-info": true,
+        "**/.cache": true
     },
     "editor.minimap.enabled": false,
     "editor.dragAndDrop": false,
@@ -24,5 +26,6 @@
     },
     "gitlens.codeLens.enabled": false,
     "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "One Dark Pro"
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 1
 }
