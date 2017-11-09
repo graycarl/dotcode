@@ -11,5 +11,15 @@
     {
         "key": "f8",
         "command": "workbench.action.tasks.test"
+    },
+    {
+        "key": "ctrl+cmd+f",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+cmd+b",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
     }
 ]
