@@ -26,8 +26,9 @@
     },
     "gitlens.codeLens.enabled": false,
     "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "Snazzy Operator",
+    "workbench.colorTheme": "Monokai Dimmed",
     "window.zoomLevel": 0,
     "terminal.integrated.rightClickCopyPaste": true,
-    "terminal.integrated.scrollback": 10000
+    "terminal.integrated.scrollback": 10000,
+    "editor.links": false
 }
