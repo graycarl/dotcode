@@ -16,7 +16,6 @@
     "python.linting.flake8Enabled": true,
     "python.linting.pep8Enabled": false,
     "python.linting.pydocstyleEnabled": false,
-    "python.linting.lintOnTextChange": false,
     "python.linting.lintOnSave": true,
     "search.exclude": {
         "**/node_modules": true,
@@ -26,9 +25,19 @@
     },
     "gitlens.codeLens.enabled": false,
     "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "Default Light+",
     "window.zoomLevel": 0,
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.scrollback": 10000,
-    "editor.links": false
+    "editor.links": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    }
 }

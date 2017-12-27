@@ -9,10 +9,6 @@
         "command": "python.runtests"
     },
     {
-        "key": "f8",
-        "command": "workbench.action.tasks.test"
-    },
-    {
         "key": "ctrl+cmd+f",
         "command": "editor.action.smartSelect.grow",
         "when": "editorTextFocus"
