@@ -24,8 +24,8 @@
         "**/.venv": true
     },
     "gitlens.codeLens.enabled": false,
-    "extensions.ignoreRecommendations": false,
-    "workbench.colorTheme": "Default Light+",
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "Quiet Light",
     "window.zoomLevel": 0,
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.scrollback": 10000,
@@ -39,5 +39,7 @@
         "suppressNoRepositoryWarning": false,
         "suppressUpdateNotice": true,
         "suppressWelcomeNotice": false
-    }
+    },
+    "python.workspaceSymbols.ctagsPath": "/usr/local/bin/ctags",
+    "workbench.startupEditor": "none"
 }
