@@ -30,7 +30,7 @@
     },
     {
         "key": "cmd+k j",
-        "command": "editor.unfold",
+        "command": "editor.unfoldRecursively",
         "when": "editorTextFocus"
     },
     {
@@ -41,6 +41,11 @@
     {
         "key": "cmd+k g",
         "command": "cursorTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.focusPanel",
         "when": "editorTextFocus"
     }
 ]
