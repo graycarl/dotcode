@@ -17,5 +17,30 @@
         "key": "ctrl+cmd+b",
         "command": "editor.action.smartSelect.shrink",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+k",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k k",
+        "command": "editor.fold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k j",
+        "command": "editor.unfold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k cmd+g",
+        "command": "cursorBottom",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+k g",
+        "command": "cursorTop",
+        "when": "editorTextFocus"
     }
 ]
