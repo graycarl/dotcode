@@ -23,23 +23,18 @@
         "**/venv": true,
         "**/.venv": true
     },
-    "gitlens.codeLens.enabled": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.colorTheme": "Quiet Light",
+    "workbench.colorTheme": "Dracula",
     "window.zoomLevel": 0,
     "terminal.integrated.rightClickCopyPaste": true,
     "terminal.integrated.scrollback": 10000,
     "editor.links": false,
-    "gitlens.advanced.messages": {
-        "suppressCommitHasNoPreviousCommitWarning": false,
-        "suppressCommitNotFoundWarning": false,
-        "suppressFileNotUnderSourceControlWarning": false,
-        "suppressGitVersionWarning": false,
-        "suppressLineUncommittedWarning": false,
-        "suppressNoRepositoryWarning": false,
-        "suppressUpdateNotice": true,
-        "suppressWelcomeNotice": false
-    },
     "python.workspaceSymbols.ctagsPath": "/usr/local/bin/ctags",
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "python.disablePromptForFeatures": [
+        "flake8"
+    ],
+    "terminal.integrated.copyOnSelection": true,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.gitExplorer.enabled": false
 }
