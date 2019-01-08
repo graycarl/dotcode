@@ -1,0 +1,12 @@
+azemoh.one-monokai
+azemoh.theme-onedark
+emmanuelbeziat.vscode-great-icons
+fabiospampinato.vscode-todo-plus
+ms-python.python
+ms-vscode.Theme-MarkdownKit
+pajoma.vscode-journal
+PeterJausovec.vscode-docker
+teabyii.ayu
+vscodevim.vim
+vstirbu.vscode-mermaid-preview
+yzhang.markdown-all-in-one
